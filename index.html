@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="chaima rebai, portfolio, web developer, data scientist">
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title> Chaima Rebai Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/profile.jpg">
+
+  </head>
+  <body>
+    <nav>
+      <div class="nav__content">
+        <div class="logo"><a href="#">Chaima</a></div>
+        <label for="check" class="checkbox">
+          <i class="ri-menu-line"></i>
+        </label>
+        <input type="checkbox" name="check" id="check" />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#blog">projects</a></li>
+          <li><a href="#Resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+  
+    <section class="section  section-white">
+      <div class="section__container">
+        <div class="image">
+            <img src="assets/profile.png" alt="profile" />
+          </div>
+        <div class="content">
+          <p class="subtitle">HELLO</p>
+          <h1 class="title">
+            I'm <span>Chaima<br /></span> Data Science Student | Web Developer 
+          </h1>
+          <p class="description">
+            Welcome to my portfolio! , where you'll find a blend of my academic journey, web development projects, 
+            and insights into the world of data science.  <br>Let's embark on this journey together!
+          </p>
+          
+          <div class="action__btns">
+           
+            <a href="#contact"> <button class="hire__me">Contact me</button></a>
+            <button onclick="downloadCV()" class="portfolio">Resume</button>
+          </div> 
+        </div>      
+      </div>
+    </section>
+
+    <section id="about" class="about section-black">
+      <div class="container_about">
+          <div class="flex-1">
+              <img class="about-me-img" src="./images/man-2.png" alt="">
+          </div>
+          <div class="content_about">
+              <h1>About <span style="color: #EB0707;">Me</span></h1> <br>
+              <h3>Hello! i’m Chaima Rebai.</h3>
+              <br>
+              <p class="description">I am a Data Science enthusiast and a passionate web developer, holding a bachelor's degree in Computer Systems Engineering 
+                with a specialization in IoT and embedded systems. Based in Tunisia, I thrive on designing innovative technology solutions, 
+                leveraging my expertise in embedded systems, IoT devices, and software development.
+                <br>
+                Driven by a strong sense of motivation and ambition, I am always eager to embrace new opportunities for growth and learning. <br>
+                 With a flexible mindset and excellent communication skills, I approach challenges with enthusiasm and adaptability. <br>
+                Let's connect and explore the possibilities together!</p>
+              <div class="social">
+                  <a href="chaima.rebai01@gmail.com"><img src="responsive_portfolio\images\courrier.png" alt=""></a>
+                  <a href="https://github.com/ChaimaRebai"><img src="responsive_portfolio\images\git.png" alt=""></a>
+                  <a href="https://www.linkedin.com/in/chaima-rebai-99b7a11aa/"> <img src="responsive_portfolio\images\linkedin.png" alt=""></a>
+                  <a href="#"> <img src="responsive_portfolio\images\phone.png" alt=""></a>
+              </div>
+          </div>
+      </div>
+  </section>
+
+
+  <section id="services" class="services">
+    <div class="containerS">
+      <br> <br>
+        <h1 class="section-heading"><span>My </span>Services</h1>
+        <p>Explore my services spanning Data Science solutions, Web Development projects and IOT Applications. <br> Let's collaborate and bring your ideas to life!</p>
+        <div class="card-wrapper">
+            <div class="card">
+                <img src="./images/brush.svg" alt="">
+                <h2>Web development</h2>
+                <p>
+                  creating high-standard, clean websites tailored to meet your business needs.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./images/code.svg" alt="">
+                <h2>Iot Applications</h2>
+                <p>Harness the power of the Internet of Things with innovative applications designed to enhance connectivity and efficiency.
+                </p>
+            </div>
+            <div class="card">
+                <img src="./images/bag.svg" alt="">
+                <h2>Data Science</h2>
+                <p>Unlock valuable insights from your data with advanced data science solutions, 
+                  empowering you to make informed decisions and drive business growth.
+                </p>
+            </div>
+           
+        </div>
+    </div>
+</section>
+
+
+<section id="blog" class="blog">
+  <div class="container">
+    <br>
+      <h1 class="section-heading"><span>My</span> projects</h1>
+  <br> <br> <br> <br>
+      <div class="card-wrapper">
+          <div class="card">
+              <div class="img-wrapper">
+                  <img src="responsive_portfolio\images\dashboard.png" alt="">
+              </div>
+              <div class="card-content">
+                  <a href="#">
+                      <h1>Streamlit Customer Insight</h1>
+                  </a>
+                  <span>March , 2024</span>
+                  <p>Streamlit Web App: Interactive Dashboard, Chatbot Interface, Predictive Customer
+                    Satisfaction Analysis based on Excel data file with Face Recognition Login.</p>
+                  <a href="streamlitApp.html">Read More</a>
+              </div>
+          </div>
+          <div class="card">
+              <div class="img-wrapper">
+                  <img src="responsive_portfolio\images\truckiot.png" alt="">
+              </div>
+              <div class="card-content">
+                  <a href="#">
+                      <h1>Real time embedded system for monitoring the temperature inside refrigerated cabins</h1>
+                  </a>
+                  <span>June , 2023</span>
+                  <p>Design and development of a real-time embedded system for monitoring the
+                    temperature inside refrigerated cabins and the opening of doors on utility trucks.
+
+                    The hardware component involves designing and implementing a real-time tracking embedded
+                    system. The software component consists in developing a web application for data analysis,
+                    visualization, remote control, and receiving alerts from the IoT system in real time.
+                    <br>
+                    Technologies: GSM/GPRS module Quectel MC60, OpenCPU, BLE module HM10, embeddedC,
+                    Flutter, SpringBoot, MQTT, Mysql, SysML.</p>
+                  <a href="pfeProject.html">Read More</a>
+              </div>
+          </div>
+          <div class="card">
+              <div class="img-wrapper">
+                  <img src="responsive_portfolio\images\smarthouse.png" alt="">
+              </div>
+              <div class="card-content">
+                  <a href="#">
+                      <h1>Smart House Security System 
+                      </h1>
+                  </a>
+                  <span>june, 2022</span>
+                  <p>
+                    I have developed an IoT system that allows
+                    remote monitoring of a house using a Raspberry Pi board and a mobile application.
+                    <br>
+                    Technologies: Raspberry pi , python, firebase, android studio</p>
+                  <a href="#">Read More</a>
+              </div>
+          </div>
+          <div class="card">
+            <div class="img-wrapper">
+                <img src="responsive_portfolio\images\code.png" alt="">
+            </div>
+            <div class="card-content">
+                <a href="#">
+                    <h1>web application for gym </h1>
+                </a>
+                <span>April, 2022</span>
+                <p>Using: HTML, CSS, JavaScript</p>
+                <a href="GymApp.html">Read More</a>
+              </div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<section id="Resume" class="freelancer">
+  <br> <br> 
+  <h1>Available For Freelance opportunities.</h1>
+  <br>
+  <button  onclick="downloadCV()" class="btn btn-primary">Download CV</button>
+</section>
+<br> <br>
+
+<section id="contact" class="contact">
+  <div class="container">
+      <h1 class="section-heading">Contact <span>Me</span></h1>
+      <div class="card-wrapper">
+        
+          <div class="card">
+              <img src="./images/msg.svg" alt="">
+              <h1>Email Me At</h1>
+              <h6>chaima.rebai01@gmail.com</h6>
+          </div>
+         
+
+      </div>
+
+      <form action="https://api.web3forms.com/submit" method="POST">
+        
+         <div class="input_form">
+          <div class="input-wrap">
+            <input type="hidden" name="access_key" value="14214a3b-173f-428c-ad1f-d76afa17b15d">
+            <input type="text" name="name" placeholder="Your Name *" required>
+            <input type="email" name="email" placeholder="Your Email *" required>
+        </div>
+        <div class="input-wrap-2">
+            <input type="text" name="subject" placeholder="Your Subject...">
+            <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message..."></textarea>
+        </div>
+         </div>
+          <div class="btn-wrapper">
+              <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+      </form>
+  </div>
+</section>
+<br> <br> 
+
+
+<footer>
+  <div class=".footer-socials">
+    <a href="chaima.rebai01@gmail.com"><img src="responsive_portfolio\images\courrier.png" alt=""></a>
+    <a href="https://github.com/ChaimaRebai"><img src="responsive_portfolio\images\git.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/chaima-rebai-99b7a11aa/"> <img src="responsive_portfolio\images\linkedin.png" alt=""></a>
+    <a href="#"> <img src="responsive_portfolio\images\phone.png" alt=""></a>
+  </div>
+ <br> <br> <br>
+  
+  <div class="copyright" >
+      Copyright 2024 © Chaima <br> Made with love 
+  </div>
+</footer>
+
+<script>
+  function downloadCV() {
+      var downloadLink = document.createElement("a");
+      downloadLink.href = "Resume ChaimaRebai.pdf";
+      downloadLink.download = "Resume ChaimaRebai.pdf";
+      document.body.appendChild(downloadLink);
+      downloadLink.click();
+      document.body.removeChild(downloadLink);
+  }
+</script>
+  
+  </body>
+</html>

@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+@import 'responsive_portfolio\utilities.css';
+
+:root {
+    --primary-color: #EB0707;
+    --primary-color-dark: #EB0707;
+    --secondary-color: #EB0707;
+    --text-dark: #1f2937;
+    --text-light: #6b7280;
+    --extra-light: #faf5ff;
+    --max-width: 1200px;
+    --dark:#161616;
+  
+  }
+  
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.section-heading{
+    color:var(--secondary); 
+    text-align: center;
+    margin-bottom:1rem;
+    line-height: 0.5;
+  }
+  .section-heading span{
+     color:var(--primary-color);
+  }
+  .section-heading + p{
+    color:var(--text-light);
+    font-family:'Lato', sans-serif;
+    margin-bottom:7rem;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+
+
+  section {
+    margin-top: 100px;
+    margin-bottom: 0;
+
+  }
+
+  
+  
